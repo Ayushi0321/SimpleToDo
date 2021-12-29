@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     var listOfTasks = mutableListOf<String>()
     lateinit var adapter: TaskItemAdapter
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -47,6 +46,7 @@ class MainActivity : AppCompatActivity() {
                 // 2. Notify the adapter that something has changed
                 adapter.notifyDataSetChanged()
 
+                // Persist the changes
                 saveItems()
 
                 // Display a message to user saying Item Deleted
@@ -86,6 +86,7 @@ class MainActivity : AppCompatActivity() {
             // 3. Reset text field
             inputText.setText("")
 
+            // persist the changes
             saveItems()
 
             // Display a message to user saying item has been added
@@ -114,7 +115,6 @@ class MainActivity : AppCompatActivity() {
 
             // Display a message to user saying item has been updated
             Toast.makeText(applicationContext, "Item updated successfully", Toast.LENGTH_SHORT).show()
-
         } else {
             Log.w("MainActivity", "Unknown Call")
         }
