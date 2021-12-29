@@ -4,7 +4,7 @@
 
 Submitted by: **Ayushi**
 
-Time spent: **3** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -16,18 +16,17 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [x] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 The following **additional** features are implemented:
 
-* [x] Display a message to user when an item is added
-* [x] Display a message to user when an item is deleted
+* [x] Display a message to user when an item is added, deleted or updated
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='WalkThrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough_updated.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
