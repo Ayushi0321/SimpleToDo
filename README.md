@@ -24,15 +24,11 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<img src='WalkThrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-Here's a walkthrough of implemented edit feature:
+Here's a walkthrough of implemented user stories and edit feature:
 
 <img src='walkthrough_update.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
